@@ -13,6 +13,20 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
     border: 2px solid #cccccc;
+    /* w3 example - float nav https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu */
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 section {
@@ -27,16 +41,15 @@ footer {
 
 .head-name {
     background-color: #4aaaa5;
+    width: 10%;
     /* width: 20%; */
-    text-align: center;
+    /* text-align: center;
     padding: 50px;
-    margin: 0px;
+    margin: 0px; */
     /* float: left; */
-    position: fixed;
+    /* position: fixed;
     top: 5;
-    left: 100;
+    left: 100; */
 }
 
-.head-menu {
-    padding: 200px;
-}
+.head-menu {}
