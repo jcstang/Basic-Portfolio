@@ -9,16 +9,16 @@ body {
     background-image: url('../images/dot-grid/dot-grid.png');
 }
 
-section {
-    background-color: #ffffff;
-    border: 2px solid #dddddd;
-    width: 80%;
-}
-
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
     border: 2px solid #cccccc;
+}
+
+section {
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    width: 80%;
 }
 
 footer {
