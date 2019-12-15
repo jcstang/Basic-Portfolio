@@ -25,20 +25,18 @@ footer {
     background-color: #666666;
 }
 
-.heading {
+.head-name {
     background-color: #4aaaa5;
     /* width: 20%; */
+    text-align: center;
+    padding: 50px;
+    margin: 0px;
     /* float: left; */
+    position: fixed;
+    top: 5;
+    left: 100;
 }
 
-#fixed {
-    z-index: 2;
-    width: 100%;
-    position: fixed;
-    /*top: 0;
-    left: 0;
-    padding: 40px;
-    margin: 0;
-    text-align: center;
-    background: green; */
+.head-menu {
+    padding: 200px;
 }
