@@ -38,7 +38,6 @@ footer {
     background-color: #4aaaa5;
     margin-left: 80px;
     text-align: center;
-    /* display: inline-block; */
     float: left;
     vertical-align: middle;
     height: 100%;
@@ -46,32 +45,16 @@ footer {
 }
 
 .head-menu {
-    /* display: inline-block; */
-    text-align: right;
-    /* margin-left: 550px; */
     float: right;
-
     width: 40%;
-    background: #ccc;
     height: 100%;
 }
 
 .head-menu a {
     text-decoration: none;
-    margin-top: 10px;
+    margin: 30px 4px;
+    padding: 10px;
+    float: right;
+    background-color: cornflowerblue;
+    color: black;
 }
-
-/* Create two columns/boxes that floats next to each other */
-
-/*1*/
-/* nav {
-    width: 40%;
-    background: #ccc;
-    height: 100%;
-}
-
-nav a {
-    list-style-type: none;
-    padding: 0px;
-    text-align: center;
-} */
