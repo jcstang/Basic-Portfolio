@@ -33,11 +33,16 @@ footer {
     padding: 10px 90px;
     margin-left: 80px;
     text-align: center;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .head-menu {
-    display: inline-block;
+    /* display: inline-block; */
     text-align: right;
-    margin-left: 550px;
+    /* margin-left: 550px; */
+}
+
+.head-menu a {
+    text-decoration: none;
+    padding: 10px;
 }
