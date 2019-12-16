@@ -28,6 +28,10 @@ footer {
     text-align: center;
 }
 
+.clr-float {
+    clear: both;
+}
+
 .head-name {
     background-color: #4aaaa5;
     width: 10%;
@@ -35,12 +39,14 @@ footer {
     margin-left: 80px;
     text-align: center;
     /* display: inline-block; */
+    float: left;
 }
 
 .head-menu {
     /* display: inline-block; */
     text-align: right;
     /* margin-left: 550px; */
+    float: right;
 }
 
 .head-menu a {
@@ -51,8 +57,8 @@ footer {
 /* Create two columns/boxes that floats next to each other */
 
 nav {
-    float: left;
-    width: 70%;
+    /* float: left; */
+    width: 40%;
     background: #ccc;
     padding: 20px;
 }
@@ -75,3 +81,14 @@ nav ul {
     display: block;
     clear: both;
 }
+
+/* doing some float experiments */
+/* .div-name {
+    float: left;
+    width: 33.3%;
+}
+
+.div-nav {
+    float: right;
+    width: 66%;
+} */
