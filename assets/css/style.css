@@ -49,24 +49,29 @@ footer {
 }
 
 /* Create two columns/boxes that floats next to each other */
+
 nav {
     float: left;
     width: 70%;
     background: #ccc;
     padding: 20px;
-  }
+}
+
 /* Style the list inside the menu */
+
 nav ul {
     list-style-type: none;
     padding: 0;
-  }
+}
 
 .head-name2 {
     float: left;
     width: 30%;
+    background-color: red;
 }
 
 .main-content {
+    content: " ";
+    display: block;
     clear: both;
-  }
-  
+}
