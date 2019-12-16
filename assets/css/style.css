@@ -2,7 +2,6 @@
 Basic Portfolio
 Winter 2019
 style.css
-
  */
 
 body {
@@ -14,20 +13,6 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
     border: 2px solid #cccccc;
-    /* w3 example - float nav https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu */
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-header a {
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
 }
 
 section {
@@ -38,19 +23,21 @@ section {
 
 footer {
     background-color: #666666;
+    padding: 30px 10px 30px 10px;
+    text-align: center;
 }
 
 .head-name {
     background-color: #4aaaa5;
     width: 10%;
-    /* width: 20%; */
-    /* text-align: center;
-    padding: 50px;
-    margin: 0px; */
-    /* float: left; */
-    /* position: fixed;
-    top: 5;
-    left: 100; */
+    padding: 10px 90px;
+    margin-left: 80px;
+    text-align: center;
+    display: inline-block;
 }
 
-.head-menu {}
+.head-menu {
+    display: inline-block;
+    text-align: right;
+    margin-left: 550px;
+}
