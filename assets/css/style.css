@@ -129,9 +129,12 @@ input, textarea {
     height: auto;
 }
 
-.card h3 {
-    /* float: left; */
-    padding: 5px;
-    border: 4px solid blue;
-    background-color: blueviolet;
+.card-text {
+    border: 3px solid peru;
+    position: relative;
+    height: 20px;
+}
+
+.card-text h3 {
+    float: left;
 }
