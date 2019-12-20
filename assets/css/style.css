@@ -16,6 +16,7 @@ header {
     background-color: #ffffff;
     border: 2px solid #cccccc;
     height: 90px;
+    
 }
 
 .container {
@@ -27,6 +28,16 @@ header {
     margin-top: 20px;       /* bump it off of the the top header */
     margin-bottom: 20px;    /* bumps it off of the footer. */
 
+}
+
+.clearfix::right {
+    clear: both;
+    display: block;
+}
+
+.container strong {
+    font-family: 'Permanent Marker', cursive;
+    font-size: x-large;
 }
 
 .container h1 {
@@ -62,14 +73,18 @@ footer {
     text-align: center;
     height: 100%;
     padding: 0px 30px;
-    margin-left: 80px;
+    /* margin-left: 80px; */
     float: left;
+    position: relative;
+    top: auto;
+    left: 80px;
     
 }
 
 .head-menu {
     float: right;
-    width: 40%;
+    /* width: 40%; */
+    width: auto;
     height: 100%;
 }
 
