@@ -22,12 +22,17 @@ header {
 .container {
     background-color: #ffffff;
     border: 2px solid #dddddd;
-    width: 960px;
+    /* width: 960px; */
+    width: 65%;
     padding: 12px;
     margin: auto;           /* makes the section in the middle. */   
     margin-top: 20px;       /* bump it off of the the top header */
     margin-bottom: 20px;    /* bumps it off of the footer. */
 
+}
+
+.container p {
+    padding: 7px;
 }
 
 .clearfix::right {
@@ -55,11 +60,6 @@ footer {
     text-align: center;
 }
 
-/* clearfix type thing. helps with floats. */
-/* .clr-float {
-    clear: both;
-} */
-
 /* line right about the footer*/
 .foot {
     padding: 2px;
@@ -69,8 +69,8 @@ footer {
 /* the header or top of document. Header + .head-name + .head-menu */
 .head-name {
     background-color: #4aaaa5;
-    vertical-align: middle;
-    text-align: center;
+    /* vertical-align: middle;
+    text-align: center; */
     height: 100%;
     padding: 0px 30px;
     /* margin-left: 80px; */
